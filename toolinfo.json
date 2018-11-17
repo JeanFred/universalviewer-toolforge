@@ -1,0 +1,11 @@
+[
+    {
+      "name" : "universalviewer",
+      "title" : "Universal Viewer",
+      "description" : "An IIIF compatible viewer",
+      "url" : "https://tools.wmflabs.org/universalviewer-toolforge/",
+      "keywords" : "iiif",
+      "author" : "JeanFred",
+      "repository" : "https://github.com/JeanFred/universalviewer-toolforge"
+    }
+]

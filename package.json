@@ -1,0 +1,10 @@
+{
+  "name": "universalviewer-toolforge",
+  "version": "1.0.0",
+  "description": "A simple deployment of UniversalViewer for the Wikimedia Toolforge.",
+  "author": "JeanFred",
+  "license": "MIT",
+  "dependencies": {
+    "universalviewer": "^3.0.16"
+  }
+}

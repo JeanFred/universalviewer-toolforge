@@ -1,0 +1,19 @@
+---
+- hosts: toolforge
+  become: yes
+  become_user: "tools.universalviewer"
+
+  vars:
+    base_path: /data/project/universalviewer
+
+  tasks:
+    - name: Clone Git repository
+      git:
+        repo: 'https://github.com/JeanFred/universalviewer-toolforge'
+        dest: '{{ base_path }}/src/'
+
+    - name: Symlink public_html
+      file:
+        src: '{{ base_path }}/src/'
+        path: '{{ base_path }}/public_html'
+        state: link
